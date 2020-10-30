@@ -44,12 +44,13 @@ hi, welcome to guide.
   <li>In vnc viewer type in ip address of pi and hit enter, enter in pi as user and raspberry as the password</li>
   <li>now we are doing what is called virtural network computing, we are controlling the computer over the network. This allwos us to see everything, not only the command line</li>
   <li>Now we will walk through the setup (you dont have to do this through vnc, you can use tthe monitor and usb keyboard/mouse if you want)</li>
-     a. click next and set country, language, and time zone and click next
-     b. now set a new password
-     c. if there are black bars around your screen check the box, if not just click next
-     d. we should already be connected to wifi, if not, connect and click next
-     e. click next to update the computer
-     f. once done, setup is done, click restart
+     <ol>a. click next and set country, language, and time zone and click next
+        <li>now set a new password</li>
+        <li>if there are black bars around your screen check the box, if not just click next</li>
+        <li>we should already be connected to wifi, if not, connect and click next</li>
+        <li>click next to update the computer</li>
+        <li>once done, setup is done, click restart</li>
+    </ol>
   <li>Have fun, you can do anything you want now from use the pi as a media server to make a self driving car out of it, the possibilities are endless</li>
     
 </ol>
