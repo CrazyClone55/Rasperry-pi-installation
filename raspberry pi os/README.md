@@ -42,7 +42,8 @@ hi, welcome to guide.
   <li>if on windows, download free application, putty https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html, if on linux/mac use console and type ssh pi@[ip adress here] and login with raspberry as password</li>
   <li>launch putty and input ip adress in host name box, leave port at 22 and connection type on SSH</li>
   <img src="../Photos/putty.PNG" width="50%">
-  <li>click open, and if greeted with security alert click yes <img src="../Photos/puttyyes.PNG" width="50%">, then enter pi as username and click enter and enter raspberry as password and click enter</li>
+  <li>click open, and if greeted with security alert click yes, then enter pi as username and click enter and enter raspberry as password and click enter</li>
+  <img src="../Photos/puttyyes.PNG" width="50%">
   <img src="../Photos/puttylogin.PNG" width="50%">
   <li>what we have done is called Secure Shell, which is a way of securely remotely desktoping into a computer. This way we can control the raspberry pi from our laptop or computer.</li>
   <li>now type sudo raspi-config and hit enter, if prompted enter password, raspberry</li>
