@@ -3,5 +3,5 @@ How to install, raspberry pi os and tiny core linux to raspberry pi zero (plus i
 
 
 in order from easiest to hardest
-  raspbery pi os
-  tiny core linux
+  <a href="raspberry pi os/README.md">raspbery pi os</a>
+  <a>tiny core linux</a>
