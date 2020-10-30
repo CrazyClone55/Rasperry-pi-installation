@@ -6,4 +6,4 @@ in order from easiest to hardest
   <br>
   <a href="raspberry pi os/README.md">raspbery pi os</a>
   <br>
-  <a>tiny core linux</a>
+  <a href="tiny core/README.md">tiny core linux</a>
