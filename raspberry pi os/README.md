@@ -56,7 +56,7 @@ hi, welcome to guide.
   <img src="../Photos/expand.PNG" width="50%">
   <li>select finish to exit config and select yes to reboot computer</li>
   <li>download vnc viewer on your computer https://www.realvnc.com/en/connect/download/viewer/</li>
-  <li>In vnc viewer type in ip address of pi <img src="../Photos/VNCip.PNG" width="50%">and hit enter after it restarts, enter in pi as user and raspberry as the password<img src="../Photos/VNClogin.PNG" width="50%">, if you see a screen like this <img src="../Photos/identity.PNG" width="50%"> click continue</li>
+  <li>In vnc viewer type in ip address of pi and hit enter after it restarts, enter in pi as user and raspberry as the password, if you see a screen like this click continue</li><img src="../Photos/VNCip.PNG" width="50%"><img src="../Photos/VNClogin.PNG" width="50%"><img src="../Photos/identity.PNG" width="50%">
   <li>now we are doing what is called virtural network computing, we are controlling the computer over the network. This allows us to see everything, not only the command line</li>
   <li>Now we will walk through the setup (you dont have to do this through vnc, you can use the monitor and usb keyboard/mouse if you want)</li>
      <ol>
