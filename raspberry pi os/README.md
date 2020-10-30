@@ -7,14 +7,15 @@ hi, welcome to guide.
   <li>micro sd card reader</li>
   <li>usb splitter</li>
   <li>usb mouse and keyboard</li>
+  <li>hdmi monitor</li>
 </ul>
   
   
 <h1>Setup</h1>  
 <ol>
-  <li>download raspberry pi os from https://downloads.raspberrypi.org/raspios_armhf_latest.torrent. This is the actual operating system</li>
-  <li>while that is loading also download the raspberry pi imager for your operating system, if on linux use snap install rpi-imager and launch it with sudo, it will take a while to launch so be patient https://www.raspberrypi.org/downloads/. This allows us to write the operating system to our external drive, in this case, an sd card</li>
-  <li>right click and extract the .img file from the zip file</li>
+  <li>download and torrent (if you don't know what torrent means, go look it up)raspberry pi os from https://downloads.raspberrypi.org/raspios_armhf_latest.torrent. This is the actual operating system</li>
+  <li>while that is loading also download the raspberry pi imager for your operating system https://www.raspberrypi.org/downloads/, if on linux use snap install rpi-imager and launch it with sudo, it will take a while to launch so be patient. This allows us to write the operating system to our external drive, in this case, an sd card</li>
+  <li>right click the downloaded raspios zip and extract the .img file from the zip file</li>
   <li>insert sd card into computer and run the imager</li>
   <li>select use custom and select the extracted .img file</li>
   <li>select the sd card as your target and click write (click yes after)</li>
