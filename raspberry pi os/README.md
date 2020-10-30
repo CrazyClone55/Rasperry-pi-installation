@@ -14,7 +14,7 @@ hi, welcome to guide.
 <ol>
   <li>download and torrent (if you don't know what torrent means, go look it up)raspberry pi os from https://downloads.raspberrypi.org/raspios_armhf_latest.torrent. This is the actual operating system</li>
   <li>while that is loading also download the raspberry pi imager for your operating system https://www.raspberrypi.org/downloads/, if on linux use snap install rpi-imager and launch it with sudo, it will take a while to launch so be patient. This allows us to write the operating system to our external drive, in this case, an sd card</li>
-  <img src="../Photos/imagerdownload.PNG">
+  <img src="../Photos/imagerdownload.PNG" width="50%">
   <li>right click the downloaded raspios zip and extract the .img file from the zip file</li>
   <li>insert sd card into computer and install/run the imager</li>
   <li>select use custom and select the extracted .img file</li>
