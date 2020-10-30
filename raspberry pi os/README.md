@@ -9,25 +9,25 @@ hi, welcome to guide.
   <li>usb mouse and keyboard</li>
   <li>hdmi monitor</li>
 </ul>
-  
-  
+ 
 <h1>Setup</h1>  
 <ol>
   <li>download and torrent (if you don't know what torrent means, go look it up)raspberry pi os from https://downloads.raspberrypi.org/raspios_armhf_latest.torrent. This is the actual operating system</li>
   <li>while that is loading also download the raspberry pi imager for your operating system https://www.raspberrypi.org/downloads/, if on linux use snap install rpi-imager and launch it with sudo, it will take a while to launch so be patient. This allows us to write the operating system to our external drive, in this case, an sd card</li>
+  <img src="../Photos/imagerdownload.PNG">
   <li>right click the downloaded raspios zip and extract the .img file from the zip file</li>
-  <li>insert sd card into computer and run the imager</li>
+  <li>insert sd card into computer and install/run the imager</li>
   <li>select use custom and select the extracted .img file</li>
   <li>select the sd card as your target and click write (click yes after)</li>
   <li>once it is done click continue and remove the sd card</li>
-  <li>reinsert sd card and navigate to it using your file browser. It will be called boot and have ~256 mb storage</li>
+  <li>reinsert sd card and navigate to it using your file browser. It will be called boot and have ~256 mb storage, if asked to format card, DO NOT FORMAT CARD</li>
   <li>create a new file in that boot folder named "ssh" with no file extension</li>
   <li>eject the card</li>
  </ol> 
 <h1>Run on Pi</h1>
 <ol>
   <li>insert sd card into raspberry pi</li>
-  <li>plug in display, usb splitter, usb mouse and keyboard, and power
+  <li>plug in display, usb splitter, usb mouse and keyboard, and power.
   wait, until you get this screen
     <img src=""> //image of desktop5</li>
     <li>this is the desktop. Raspberry Pi Os, formerly called Raspian is a Linux based operating system with a pre installed gui. This is one of the more user friendly operating systems you can install. It is plug and play, and works right out of the box with no configuration.</li>
@@ -40,11 +40,11 @@ hi, welcome to guide.
   <li>now type sudo raspi-config and hit enter, if prompted enter password, raspberry</li>
   <li>go to interfacing options and click enter, select VNC and click enter, select yes and select ok</li>
   <li>next select advanced options and select expand filesystem then click ok when done</li>
-  <li>select finish to exit config and reboot computer with sudo reboot</li>
+  <li>select finish to exit config and select yes to reboot computer</li>
   <li>download vnc viewer on your computer https://www.realvnc.com/en/connect/download/viewer/</li>
-  <li>In vnc viewer type in ip address of pi and hit enter, enter in pi as user and raspberry as the password</li>
-  <li>now we are doing what is called virtural network computing, we are controlling the computer over the network. This allwos us to see everything, not only the command line</li>
-  <li>Now we will walk through the setup (you dont have to do this through vnc, you can use tthe monitor and usb keyboard/mouse if you want)</li>
+  <li>In vnc viewer type in ip address of pi and hit enter after it restarts, enter in pi as user and raspberry as the password, if you see a screen like this [insert picture here] click continue</li>
+  <li>now we are doing what is called virtural network computing, we are controlling the computer over the network. This allows us to see everything, not only the command line</li>
+  <li>Now we will walk through the setup (you dont have to do this through vnc, you can use the monitor and usb keyboard/mouse if you want)</li>
      <ol>
         <li>click next and set country, language, and time zone and click next</li>
         <li>now set a new password</li>
