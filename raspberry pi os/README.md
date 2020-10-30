@@ -49,7 +49,7 @@ hi, welcome to guide.
   <li>now type sudo raspi-config and hit enter, if prompted enter password, raspberry</li>
   <img src="../Photos/raspi-configcli.PNG" width="50%">
   <li>go to interfacing options and click enter, select VNC and click enter, select yes and select ok</li>
-  <img src="../Photos/interfacingoptions.PNG" width="50%">
+  <img src="../Photos/Interfacingoptions.PNG" width="50%">
   <img src="../Photos/VNC.PNG" width="50%">
   <li>next select advanced options and select expand filesystem then click ok when done</li>
   <img src="../Photos/advanced.PNG" width="50%">
