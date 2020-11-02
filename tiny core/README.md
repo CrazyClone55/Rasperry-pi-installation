@@ -12,7 +12,7 @@
 </ul>
 <h2>Setup</h2>
 <ol>
-	<li>download tiny core linux from http://tinycorelinux.net/12.x/armv6/releases/RPi/piCore-12.0.zip</li>
+	<li>download tiny core linux from http://tinycorelinux.net/9.x/armv6/releases/RPi/piCore-9.0.3.zip</li>
 	<li>while that is loading also download the raspberry pi imager for your operating system https://www.raspberrypi.org/downloads/, if on linux use snap install rpi-imager and launch it with sudo, it will take a while to launch so be patient. This allows us to write the operating system to our external drive, in this case, an sd card</li>
 	<li>right click the downloaded tinycore zip and extract the folder from the zip file</li>
 	<li>insert sd card into computer and install/run the imager</li>
