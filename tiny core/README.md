@@ -36,27 +36,4 @@
 	<li>hit enter to overite everything</li>
 	<li>to load wifi, tce-load -i firmware-rpi3-wireless</li>
 	<li>then run tce-load -i wifi</li>
-
-
-
-
-
-
-
-
-
-	<li>after its done put it in the raspberry pi along with mouse and keyboard and boot it up</li>
-	<li>once it boots up it should look like this and say its making key files, wait for it to stop and then type clear and hit enter, you should be left with a empty command line</li>
-	<img src="">
-	<img src="">
-	<img src="">
-	<li>next, type sudo fdisk -u /dev/mmcblk0</li>
-	<li>list partitions with p, write down starting and ending LBA of the second partition</li>
-	<li>delete second partition with d and 2</li>
-	<li>create new partition with n, p for primary, 2 for partition number, enter the same first cylinder value that you wrote down, and the defualt Last Cylinder</li>
-	<li>enter w to save partition settings</li>
-	<li>reboot computer with sudo reboot</li>
-	<li>enter sudo resize2fs /dev/mmcblk0p2 to expand the partition</li>
-
-
-</ol>
+	
