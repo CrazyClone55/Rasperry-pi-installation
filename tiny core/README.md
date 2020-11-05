@@ -43,4 +43,5 @@
 	<li>after it finishes enter filetool.sh -b again</li>
 	<li>now reboot computer using sudo reboot</li>
 	<li>you should reboot into the gui and you are done</li>
+	<img src='../Photos/screenshot0118185842.png' width='50%'>
 	
