@@ -36,4 +36,11 @@
 	<li>hit enter to overite everything</li>
 	<li>to load wifi, tce-load -i firmware-rpi3-wireless</li>
 	<li>then run tce-load -i wifi</li>
+	<li>now run sudo wifi.sh -a to launch wifi tui</li>
+	<li>use ctrl+c to exit and type echo "wifi.sh -a" >> /opt/bootlocal.sh</li>
+	<li>now connect to your wifi using wifi.sh -a (make sure your router supports 2.4ghz networks, or if you have a dedicated 2.4 wifi use than one)</li>
+	<li>to install the rest of the software run tce-load -iw TC.tcz</li>
+	<li>after it finishes enter filetool.sh -b again</li>
+	<li>now reboot computer using sudo reboot</li>
+	<li>you should reboot into the gui and you are done</li>
 	
