@@ -1,5 +1,5 @@
 <h1>welcome to installation of Tiny Core Linux</h1>
-<p>I am going to assume that if you are installing tiny core linux that you are already familiar with computers and have common sense so this guide may be a bit harder, also I will expect you to click yes on diaoglues and read things for yourself, this is a guide not a </p>
+<p>I am going to assume that if you are installing tiny core linux that you are already familiar with computers and have common sense so this guide may be a bit harder, also I will expect you to click yes on diaoglues and read things for yourself.</p>
 <h2>Materials</h2>
 <ul>
   <li>raspberry pi zero w</li>
@@ -8,7 +8,6 @@
   <li>usb splitter</li>
   <li>usb mouse and keyboard</li>
   <li>hdmi monitor</li>
-  <li>usb ethernet adapter</li>
 </ul>
 <h2>Setup</h2>
 <ol>
@@ -27,7 +26,7 @@
 	<li>enter n to make a new partition, then enter p for primary partition, and then 2 for second partition, and then the starting LBA we saw earlier. hit enter to use the default end LBA</li>
 	<li>enter w to write changes</li>
 	<li>type sudo reboot to restart computer</li>
-	<li>now do sudo resize2fs /dev/mmcblk0p2 to resize partition</li>
+	<li>now do sudo resize2fs /dev/mmcblk0p2 to resize the partition</li>
 	<li>enter df -h to verify partition is expanded</li>
 	<li>now we will install the wifi drivers</li>
 	<li>enter sudo mount /dev/mmcblk0p1 /mnt/mm cblk0p1</li>
@@ -40,7 +39,7 @@
 	<li>use ctrl+c to exit and type echo "wifi.sh -a" >> /opt/bootlocal.sh</li>
 	<li>now connect to your wifi using wifi.sh -a (make sure your router supports 2.4ghz networks, or if you have a dedicated 2.4 wifi use than one)</li>
 	<li>to install the rest of the software run tce-load -iw TC.tcz</li>
-	<li>after it finishes enter filetool.sh -b again</li>
+	<li>after it finishes enter filetool.sh -b again to save the files</li>
 	<li>now reboot computer using sudo reboot</li>
 	<li>you should reboot into the gui and you are done</li>
 	<img src='../Photos/screenshot0118185842.png' width='50%'>
