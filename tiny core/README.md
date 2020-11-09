@@ -43,4 +43,6 @@
 	<li>now reboot computer using sudo reboot</li>
 	<li>you should reboot into the gui and you are done</li>
 	<img src='../Photos/screenshot0118185842.png' width='50%'>
+	<li>now you can use the computer as any other computer, you should be familiar with the gui</li>
+	<li>more apps can be installed from the app manager application</li>
 	
